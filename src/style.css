@@ -1,0 +1,78 @@
+
+
+.left-element {
+    filter: brightness(0.5);
+  }
+
+
+div {
+    background-image: url('https://static.tildacdn.com/tild3537-3037-4132-b238-393262343137/1-28.jpg'); /* substitua com o caminho da sua imagem */
+    border-width: 50px;
+/* reduce brightness by 50% */
+    outline: 1px solid #f0e10c; /* adiciona uma borda preta de 1px à imagem */
+    
+    background-attachment: fixed; /* fixa a imagem de fundo */
+    background-size: cover; /* ajusta a imagem para cobrir toda a área */
+  }
+  
+  body{
+    background-color:  #eae9ee;
+  }
+  
+    img {   
+        display: block;
+        margin: 0 auto;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 100%;
+        border-color: #eae9ee;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+h1{
+    -webkit-text-stroke: 1px white; /* adiciona uma borda preta de 1px ao texto do h1 */
+    font-size: 50px;
+    color: rgb(18, 19, 18);
+
+}
+
+h2{
+    -webkit-text-stroke: 1px  white; /* adiciona uma borda preta de 1px ao texto do h1 */
+    font-size: 50px;
+    color: rgb(18, 19, 18);
+}
+
+p{
+    -webkit-text-stroke: 1px  white;  /* adiciona uma borda preta de 1px ao texto do h1 */
+    font-size: 50px;
+    color:  rgb(18, 19, 18);
+}
+
+button {
+    border: 1px solid #ccc; /* adicionar borda */
+    border-radius: 5px; /* adicionar cantos arredondados */
+    padding: 10px 20px; /* adicionar espaçamento interno */
+  
+      
+    font-size: 30px;
+    width: 300px; /* define a largura do botão para 200 pixels */
+  }
+  a {
+    text-decoration: none; /* remove o traço de baixo do texto do link */
+  }
+    .Whatsapp-button{
+        background-color: #1bbb3e; 
+        color: #eff3f5; /* azul escuro */ 
+    }
+  .instagram-button {
+    background-color: #bb1b98;
+    color: #eff3f5; /* azul escuro */
+  }
+  
+  .linkedin-button {
+    background-color: #0072b1;
+    color: #eff3f5; /* azul claro */
+  }
